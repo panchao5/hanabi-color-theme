@@ -1,18 +1,17 @@
-# sylvan-color-theme "README"
+# Sylvan Color Theme
 
-## Working with Markdown
+A color theme for those who are tired of dull colors.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![Screenshot](./screenshot.png)
 
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on "Windows" and Linux).
-- Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-- Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Font used in the screenshot is [Fira Code](https://github.com/tonsky/FiraCode).
 
-## For more information
+## Install
 
-- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Go To [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=aa-zeus.sylvan-color-theme).
+2. Click on the "Install" button.
+3. Then [activate the theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme).
 
-**Enjoy!**
+## Credits
 
-_Something_
+This theme is inspired by [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula).

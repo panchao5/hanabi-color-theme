@@ -1,4 +1,10 @@
+.changeset/**
+.github/**
 .vscode/**
 .vscode-test/**
+.husky/**
+node_modules/
+src/**
 .gitignore
-vsc-extension-quickstart.md
+.prettierrc
+screenshot.png

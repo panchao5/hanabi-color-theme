@@ -1,14 +1,16 @@
 {
   "name": "sylvan-color-theme",
   "displayName": "Sylvan Color Theme",
-  "description": "a new color theme",
-  "version": "0.0.1",
+  "description": "A color theme for those who are tired of dull colors.",
+  "version": "0.3.0",
+  "author": "Panchao Wang <panchao626@outlook.com>",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Themes"
   ],
+  "publisher": "aa-zeus",
   "contributes": {
     "themes": [
       {
@@ -18,18 +20,41 @@
       }
     ]
   },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#262c38",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aa-zeus/sylvan-color-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aa-zeus/sylvan-color-theme/issues"
+  },
   "scripts": {
     "build": "node src/index.js",
     "build:watch": "onchange -i src/**/*.js -- npm run build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "vscode:prepublish": "npm run build",
+    "package": "vsce package --githubBranch main",
+    "deploy": "npm run deploy:marketplace && npm run deploy:npm",
+    "deploy:marketplace": "vsce publish --githubBranch main",
+    "deploy:npm": "npm publish --access public"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@changesets/cli": "^2.24.4",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "onchange": "^7.1.0",
-    "prettier": "^2.7.1"
-  }
+    "prettier": "^2.7.1",
+    "vsce": "^2.11.0"
+  },
+  "files": [
+    "src",
+    "themes"
+  ]
 }

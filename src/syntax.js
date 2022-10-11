@@ -240,7 +240,7 @@ const syntax = [
     scope: [
       "markup.inline.raw",
       "punctuation.definition.raw",
-      "markup.fenced_code.block punctuation.definition", // ```
+      "markup.fenced_code.block punctuation.definition.markdown", // ```
     ],
     settings: {
       foreground: colors.BRIGHT_ORANGE,
@@ -565,6 +565,13 @@ const syntax = [
       "variable.prop.css",
       "punctuation.definition.variable.property.css",
     ],
+    settings: {
+      foreground: colors.BRIGHT_BLUE,
+    },
+  },
+  {
+    name: "[CSS] Combinators",
+    scope: ["keyword.operator.combinator.css"],
     settings: {
       foreground: colors.BRIGHT_BLUE,
     },

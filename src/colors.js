@@ -1,19 +1,19 @@
-exports.WHITE = "#f8f8f8"
-exports.BLACK = "#060b13" // hct(258, 10, 3)
+exports.WHITE = "#ebe1d6" // hct(81, 5, 90)
+exports.BLACK = "#000000" // hct(258, 10, 3)
 
 exports.RED = "#ed7058" // hct(30, 58, 62)
 exports.ORANGE = "#faab48" // hct(68, 48, 76)
 exports.YELLOW = "#f4d64d" // hct(98, 52, 86)
-exports.GREEN = "#3ac878" // hct(156, 62, 72)
+exports.GREEN = "#43c87a" // hct(156, 60, 72)
 exports.CYAN = "#09b6af" // hct(192, 48, 67)
 exports.BLUE = "#31a8df" // hct(236, 50, 65)
-exports.PURPLE = "#cf9bfc" // hct(312, 52, 72)
-exports.PINK = "#f985bf" // hct(352, 56, 70)
+exports.PURPLE = "#d19ffb" // hct(312, 50, 73)
+exports.PINK = "#fa89c1" // hct(352, 54, 71)
 
 exports.BRIGHT_WHITE = "#ffffff"
-exports.BRIGHT_BLACK = "#1d222b" // hct(261, 10, 13)
-exports.BRIGHT_RED = "#fe8b74" // hct(30, 50, 70)
-exports.BRIGHT_ORANGE = "#f8b372" // hct(62, 36, 78)
+exports.BRIGHT_BLACK = "#8f939f" // hct(264, 10, 61)
+exports.BRIGHT_RED = "#fd876f" // hct(30, 52, 69)
+exports.BRIGHT_ORANGE = "#f6b468" // hct(68, 38, 78)
 exports.BRIGHT_YELLOW = "#f5dc77" // hct(98, 46, 88)
 exports.BRIGHT_GREEN = "#6fe99b" // hct(156, 58, 84)
 exports.BRIGHT_CYAN = "#47d5ce" // hct(192, 48, 78)
