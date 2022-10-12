@@ -37,10 +37,7 @@
     "build:watch": "onchange -i src/**/*.js -- npm run build",
     "prepare": "husky install",
     "vscode:prepublish": "npm run build",
-    "package": "vsce package --githubBranch main",
-    "deploy": "npm run deploy:marketplace && npm run deploy:npm",
-    "deploy:marketplace": "vsce publish --githubBranch main",
-    "deploy:npm": "npm publish --access public"
+    "release": "vsce publish --githubBranch main"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
