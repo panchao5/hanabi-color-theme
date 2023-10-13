@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.3.2
+
+### Patch Changes
+
+- fcb2797: republish
+
 ## 0.3.1
 
 ### Patch Changes
